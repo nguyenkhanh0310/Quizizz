@@ -1,0 +1,36 @@
+.layout-default {
+  &__header {
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+  }
+
+  &__main {
+    padding: 20px;
+  }
+
+  &__footer {
+    background-color: orange;
+    padding: 15px;
+    text-align: center;
+  }
+}
+
+.menu ul{
+  display: flex;
+  list-style: none;
+
+  li {
+    margin-right: 10px;
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
