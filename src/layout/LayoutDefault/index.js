@@ -56,9 +56,9 @@ function LayoutDefault() {
           <Outlet />
         </main>
 
-        <footer className="layout-default__footer">
+        {/* <footer className="layout-default__footer">
           Copyright @ 2024 by MyKhanh
-        </footer>
+        </footer> */}
       </div>
     </>
   );
